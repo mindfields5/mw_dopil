@@ -111,7 +111,7 @@ var main_menu = {
 
         //Отображаем версию интерфейса и версию прошивки справа внизу
         var main_menu_ver = create_block_element('main_menu_ver', this.dom_obj);
-        main_menu_ver.innerHTML = + 'Interface Version - ' + ver ; //+ ' (' + stb.get_image_version() + ')'; - отображает заводскую версию ПО
+        main_menu_ver.innerHTML = 'Interface Version - ' + ver; //+ ' (' + stb.get_image_version() + ')'; - отображает заводскую версию ПО
 
         if (!stb.profile['show_version_in_main_menu']){
             main_menu_ver.hide();
