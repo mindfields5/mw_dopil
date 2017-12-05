@@ -108,9 +108,10 @@ var main_menu = {
         this.time = create_inline_element('main_menu_time' ,this.main_menu_date_bar);
         
         //this.cur_weather = create_block_element('main_menu_cur_weather', this.dom_obj);
-        
+
+        //Отображаем версию интерфейса и версию прошивки справа внизу
         var main_menu_ver = create_block_element('main_menu_ver', this.dom_obj);
-        main_menu_ver.innerHTML = ver + ' (' + stb.get_image_version() + ')';
+        main_menu_ver.innerHTML = + 'Interface Version - ' + ver ; //+ ' (' + stb.get_image_version() + ')'; - отображает заводскую версию ПО
 
         if (!stb.profile['show_version_in_main_menu']){
             main_menu_ver.hide();
