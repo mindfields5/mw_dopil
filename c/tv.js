@@ -357,7 +357,7 @@
 
                 this.hide();
                 main_menu.show();
-            }).bind(key.MENU, this).bind(key.LEFT, this);
+            }).bind(key.MENU, this);//.bind(key.LEFT, this) - отключаем реакцию на кнопку влево в списке каналов
             
             (function(){
                 if (module.epg_simple){

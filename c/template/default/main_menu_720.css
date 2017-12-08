@@ -25,7 +25,7 @@
 
 .main_menu_time{
     font-weight: bold;
-    font-size: 34px;
+    font-size: 26px;
     color: #ccd6de;
     margin-left: 12px;
     /*margin-right: 65px;*/
@@ -34,7 +34,7 @@
 .main_menu_date_bar{
     position: absolute;
     width: 584px;
-    top: 38px;
+    top: 43px;
     right: 0;
     font-family: "Myriad Pro Cond", serif;
 }
